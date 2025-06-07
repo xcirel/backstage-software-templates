@@ -44,9 +44,9 @@ spec:
         allowedHosts:
           - github.com
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=xcirel&repo=${{parameters.component_id}}
+        repoUrl: github.com?owner=xcirel-org&repo=${{parameters.component_id}}
         protectDefaultBranch: false
-        repoVisibility: private
+        repoVisibility: public
 
     - id: register
       name: Register
